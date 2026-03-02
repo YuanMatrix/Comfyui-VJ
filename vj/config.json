@@ -1,0 +1,42 @@
+{
+  "comfyui": {
+    "url": "http://127.0.0.1:8188",
+    "ws_url": "ws://127.0.0.1:8188/ws"
+  },
+  "api": {
+    "host": "0.0.0.0",
+    "port": 5002,
+    "debug": true
+  },
+  "paths": {
+    "workflow_template": "user/default/workflows/i2v-final.json",
+    "input_dir": "input",
+    "output_dir": "output"
+  },
+  "defaults": {
+    "num_frames": 480,
+    "width": 480,
+    "height": 300,
+    "fps": 16,
+    "images": [
+      "11.jpg",
+      "12.jpg",
+      "13.jpg",
+      "14.jpg"
+    ]
+  },
+  "limits": {
+    "num_frames_min": 10,
+    "num_frames_max": 5000,
+    "width_min": 64,
+    "width_max": 2048,
+    "height_min": 64,
+    "height_max": 2048,
+    "fps_min": 8,
+    "fps_max": 30,
+    "max_images": 10
+  },
+  "timeout": {
+    "task_execution": 6000
+  }
+}

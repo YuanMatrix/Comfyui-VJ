@@ -1,0 +1,776 @@
+{
+  "77ccceb6-8878-4c42-8f04-470ba459007d": {
+    "task_id": "77ccceb6-8878-4c42-8f04-470ba459007d",
+    "status": "completed",
+    "params": {
+      "audio_path": "/Users/coco/coco-code/ComfyUI/input/task-1770493016686-4hy69wup8/Max_Richter_-_On_the_Nature_of_Daylight_20260207_033628.mp3",
+      "num_frames": 480,
+      "width": 1024,
+      "height": 1024,
+      "fps": 16,
+      "images": [
+        "task-1770493016686-4hy69wup8/11.jpeg",
+        "task-1770493016686-4hy69wup8/12.png",
+        "task-1770493016686-4hy69wup8/13.jpg",
+        "task-1770493016686-4hy69wup8/14.jpg",
+        "task-1770493016686-4hy69wup8/image_media_01KGJJJWM38KJ2ZHE682BDTG89.jpg",
+        "task-1770493016686-4hy69wup8/image_media_01KGJJJXR7K6DEMV6SAK5G65C9.jpg",
+        "task-1770493016686-4hy69wup8/image_media_01KGJJJXYSEP9GNTWX5M3CAAC9.jpg"
+      ]
+    },
+    "created_at": "2026-02-08T03:36:57.389502",
+    "client_id": "2b7d4d86-4786-4ec7-89c7-d620de569104",
+    "prompt_id": "cb2efa70-6a4c-4e66-bc2e-dd7581861f1f",
+    "output_files": [
+      {
+        "filename": "77ccceb6-8878-4c42-8f04-470ba459007d__00001-audio.mp4",
+        "subfolder": "vj",
+        "type": "output",
+        "path": "/Users/coco/coco-code/ComfyUI/output/vj/77ccceb6-8878-4c42-8f04-470ba459007d__00001-audio.mp4"
+      }
+    ],
+    "error": null,
+    "elapsed_seconds": 247,
+    "completed_at": "2026-02-08T03:41:06.650202"
+  },
+  "32165f83-930c-4370-9c54-1f4a43e3a43c": {
+    "task_id": "32165f83-930c-4370-9c54-1f4a43e3a43c",
+    "status": "completed",
+    "params": {
+      "audio_path": "/Users/coco/coco-code/ComfyUI/input/task-1770493016686-4hy69wup8/Max_Richter_-_On_the_Nature_of_Daylight_20260207_033628.mp3",
+      "num_frames": 480,
+      "width": 512,
+      "height": 512,
+      "fps": 8,
+      "images": [
+        "task-1770493016686-4hy69wup8/11.jpeg",
+        "task-1770493016686-4hy69wup8/12.png",
+        "task-1770493016686-4hy69wup8/13.jpg",
+        "task-1770493016686-4hy69wup8/14.jpg",
+        "task-1770493016686-4hy69wup8/image_media_01KGJJJWM38KJ2ZHE682BDTG89.jpg",
+        "task-1770493016686-4hy69wup8/image_media_01KGJJJXR7K6DEMV6SAK5G65C9.jpg",
+        "task-1770493016686-4hy69wup8/image_media_01KGJJJXYSEP9GNTWX5M3CAAC9.jpg"
+      ]
+    },
+    "created_at": "2026-02-08T03:48:40.350986",
+    "client_id": "42d53bd6-046a-4799-aab8-8b813fe39df5",
+    "prompt_id": "bccfd014-815b-4ce3-a564-bc11827633e9",
+    "output_files": [
+      {
+        "filename": "32165f83-930c-4370-9c54-1f4a43e3a43c__00001-audio.mp4",
+        "subfolder": "vj",
+        "type": "output",
+        "path": "/Users/coco/coco-code/ComfyUI/output/vj/32165f83-930c-4370-9c54-1f4a43e3a43c__00001-audio.mp4"
+      }
+    ],
+    "error": null,
+    "elapsed_seconds": 0,
+    "completed_at": "2026-02-08T03:53:43.389977"
+  },
+  "f95dfc67-e9ec-4a4c-89ce-d12f9e882c7c": {
+    "task_id": "f95dfc67-e9ec-4a4c-89ce-d12f9e882c7c",
+    "status": "completed",
+    "params": {
+      "audio_path": "/Users/coco/coco-code/ComfyUI/input/task-1770493016686-4hy69wup8/Max_Richter_-_On_the_Nature_of_Daylight_20260207_033628.mp3",
+      "num_frames": 480,
+      "width": 512,
+      "height": 512,
+      "fps": 8,
+      "images": [
+        "task-1770493016686-4hy69wup8/11.jpeg",
+        "task-1770493016686-4hy69wup8/12.png",
+        "task-1770493016686-4hy69wup8/13.jpg",
+        "task-1770493016686-4hy69wup8/14.jpg",
+        "task-1770493016686-4hy69wup8/image_media_01KGJJJWM38KJ2ZHE682BDTG89.jpg",
+        "task-1770493016686-4hy69wup8/image_media_01KGJJJXR7K6DEMV6SAK5G65C9.jpg",
+        "task-1770493016686-4hy69wup8/image_media_01KGJJJXYSEP9GNTWX5M3CAAC9.jpg"
+      ]
+    },
+    "created_at": "2026-02-08T03:49:44.488363",
+    "client_id": "73bdcd90-4f25-4b26-89dc-af7a71bb3541",
+    "prompt_id": "812bca0b-7c35-4637-bd61-e518cc612c23",
+    "output_files": [],
+    "error": null,
+    "elapsed_seconds": 183,
+    "completed_at": "2026-02-08T03:52:49.617122"
+  },
+  "ae6def25-bdc6-445f-8962-7cb8c4d7c102": {
+    "task_id": "ae6def25-bdc6-445f-8962-7cb8c4d7c102",
+    "status": "completed",
+    "params": {
+      "audio_path": "/Users/coco/coco-code/ComfyUI/input/task-1770493016686-4hy69wup8/Max_Richter_-_On_the_Nature_of_Daylight_20260207_033628.mp3",
+      "num_frames": 96,
+      "width": 384,
+      "height": 384,
+      "fps": 8,
+      "images": [
+        "task-1770493016686-4hy69wup8/11.jpeg",
+        "task-1770493016686-4hy69wup8/12.png",
+        "task-1770493016686-4hy69wup8/13.jpg",
+        "task-1770493016686-4hy69wup8/14.jpg",
+        "task-1770493016686-4hy69wup8/image_media_01KGJJJWM38KJ2ZHE682BDTG89.jpg",
+        "task-1770493016686-4hy69wup8/image_media_01KGJJJXR7K6DEMV6SAK5G65C9.jpg",
+        "task-1770493016686-4hy69wup8/image_media_01KGJJJXYSEP9GNTWX5M3CAAC9.jpg"
+      ]
+    },
+    "created_at": "2026-02-08T03:54:10.145817",
+    "client_id": "759520ff-d83a-4f5d-9b8a-8aa3a259976b",
+    "prompt_id": "d152ad55-bb71-4b69-8027-2e0875afd9e6",
+    "output_files": [],
+    "error": null,
+    "elapsed_seconds": 0,
+    "completed_at": "2026-02-08T03:54:12.165018"
+  },
+  "ce409375-87ec-4244-bf97-70628dbad719": {
+    "task_id": "ce409375-87ec-4244-bf97-70628dbad719",
+    "status": "completed",
+    "params": {
+      "audio_path": "/Users/coco/coco-code/ComfyUI/input/task-1770493016686-4hy69wup8/Max_Richter_-_On_the_Nature_of_Daylight_20260207_033628.mp3",
+      "num_frames": 96,
+      "width": 384,
+      "height": 384,
+      "fps": 8,
+      "images": [
+        "task-1770493016686-4hy69wup8/11.jpeg",
+        "task-1770493016686-4hy69wup8/12.png",
+        "task-1770493016686-4hy69wup8/13.jpg",
+        "task-1770493016686-4hy69wup8/14.jpg",
+        "task-1770493016686-4hy69wup8/image_media_01KGJJJWM38KJ2ZHE682BDTG89.jpg",
+        "task-1770493016686-4hy69wup8/image_media_01KGJJJXR7K6DEMV6SAK5G65C9.jpg",
+        "task-1770493016686-4hy69wup8/image_media_01KGJJJXYSEP9GNTWX5M3CAAC9.jpg"
+      ]
+    },
+    "created_at": "2026-02-08T03:54:49.410329",
+    "client_id": "a2bf97a0-5dd8-49ee-a576-434baea6877d",
+    "prompt_id": "f1ec9711-cbd9-460e-b9c6-7868eee6fad2",
+    "output_files": [],
+    "error": null,
+    "elapsed_seconds": 32,
+    "completed_at": "2026-02-08T03:55:23.527260"
+  },
+  "e03e0fe8-95ea-487e-b829-53f0554c1b2d": {
+    "task_id": "e03e0fe8-95ea-487e-b829-53f0554c1b2d",
+    "status": "failed",
+    "params": {
+      "audio_path": "/Users/coco/coco-code/ComfyUI/input/ce2093e2-8dda-4fa1-bfe2-d3164cec0319/demo1.flac",
+      "num_frames": 50,
+      "width": 384,
+      "height": 384,
+      "fps": 16,
+      "images": [
+        "ce2093e2-8dda-4fa1-bfe2-d3164cec0319/image3.jpg",
+        "ce2093e2-8dda-4fa1-bfe2-d3164cec0319/image4.jpg",
+        "ce2093e2-8dda-4fa1-bfe2-d3164cec0319/image2.jpg",
+        "ce2093e2-8dda-4fa1-bfe2-d3164cec0319/image1.jpg",
+        "ce2093e2-8dda-4fa1-bfe2-d3164cec0319/image6.jpg",
+        "ce2093e2-8dda-4fa1-bfe2-d3164cec0319/image5.jpg"
+      ]
+    },
+    "created_at": "2026-02-08T12:03:17.102925",
+    "client_id": "d5be301b-c483-4b55-a7a5-34983065145f",
+    "prompt_id": null,
+    "output_files": [],
+    "error": "400 Client Error: Bad Request for url: http://127.0.0.1:8188/prompt",
+    "elapsed_seconds": 0
+  },
+  "a58d0422-21b1-4028-95aa-cd2b22454d9d": {
+    "task_id": "a58d0422-21b1-4028-95aa-cd2b22454d9d",
+    "status": "processing",
+    "params": {
+      "audio_path": "/Users/coco/coco-code/ComfyUI/input/a85bfb57-266a-462b-8a76-295530a7cd3d/demo1.flac",
+      "num_frames": 50,
+      "width": 384,
+      "height": 384,
+      "fps": 16,
+      "images": [
+        "a85bfb57-266a-462b-8a76-295530a7cd3d/image4.jpg",
+        "a85bfb57-266a-462b-8a76-295530a7cd3d/image3.jpg",
+        "a85bfb57-266a-462b-8a76-295530a7cd3d/image1.jpg",
+        "a85bfb57-266a-462b-8a76-295530a7cd3d/image2.jpg",
+        "a85bfb57-266a-462b-8a76-295530a7cd3d/image5.jpg",
+        "a85bfb57-266a-462b-8a76-295530a7cd3d/image6.jpg"
+      ]
+    },
+    "created_at": "2026-02-08T12:09:17.736245",
+    "client_id": "ccfa43a0-0786-4a57-afc9-b3596098967c",
+    "prompt_id": "6ea6dd03-6c74-4034-bb9e-f905938f0fb0",
+    "output_files": [],
+    "error": null,
+    "elapsed_seconds": 0
+  },
+  "fc3b2d80-b1a8-4ada-8090-a6f7c4b0ce49": {
+    "task_id": "fc3b2d80-b1a8-4ada-8090-a6f7c4b0ce49",
+    "status": "processing",
+    "params": {
+      "audio_path": "/Users/coco/coco-code/ComfyUI/input/f9e3ecc7-9ff1-412c-a551-8981f0b346dc/demo1.flac",
+      "num_frames": 480,
+      "width": 200,
+      "height": 200,
+      "fps": 16,
+      "images": [
+        "f9e3ecc7-9ff1-412c-a551-8981f0b346dc/image4.jpg",
+        "f9e3ecc7-9ff1-412c-a551-8981f0b346dc/image3.jpg",
+        "f9e3ecc7-9ff1-412c-a551-8981f0b346dc/image2.jpg",
+        "f9e3ecc7-9ff1-412c-a551-8981f0b346dc/image1.jpg",
+        "f9e3ecc7-9ff1-412c-a551-8981f0b346dc/image5.jpg",
+        "f9e3ecc7-9ff1-412c-a551-8981f0b346dc/image6.jpg"
+      ]
+    },
+    "created_at": "2026-02-08T12:12:27.210866",
+    "client_id": "c2f23346-da10-49b0-b2d2-503ce9117143",
+    "prompt_id": "00210118-7f11-4b0d-8654-4f7b17a51244",
+    "output_files": [],
+    "error": null,
+    "elapsed_seconds": 0
+  },
+  "d742ac58-a3f3-42cd-b7fa-43c5e835a0d6": {
+    "task_id": "d742ac58-a3f3-42cd-b7fa-43c5e835a0d6",
+    "status": "completed",
+    "params": {
+      "audio_path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\input\\test-task-123\\demo3.mp3",
+      "num_frames": 960,
+      "width": 200,
+      "height": 200,
+      "fps": 16,
+      "images": [
+        "test-task-123/12.jpg",
+        "test-task-123/13.jpg",
+        "test-task-123/11.jpg",
+        "test-task-123/14.jpg"
+      ]
+    },
+    "created_at": "2026-02-08T17:26:57.641833",
+    "client_id": "aa099895-ba89-4bd5-93a1-570da08a31f8",
+    "prompt_id": "51a7365e-ee6b-4413-b611-2b28f2a50f4b",
+    "output_files": [
+      {
+        "filename": "d742ac58-a3f3-42cd-b7fa-43c5e835a0d6__00001-audio.mp4",
+        "subfolder": "vj",
+        "type": "output",
+        "path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\output\\vj\\d742ac58-a3f3-42cd-b7fa-43c5e835a0d6__00001-audio.mp4"
+      }
+    ],
+    "error": null,
+    "elapsed_seconds": 562,
+    "completed_at": "2026-02-08T17:36:21.917563"
+  },
+  "25ed96cf-b188-452d-af66-8aba15226993": {
+    "task_id": "25ed96cf-b188-452d-af66-8aba15226993",
+    "status": "completed",
+    "params": {
+      "audio_path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\input\\test-task-123\\demo3.mp3",
+      "num_frames": 960,
+      "width": 200,
+      "height": 200,
+      "fps": 16,
+      "images": [
+        "test-task-123/12.jpg",
+        "test-task-123/13.jpg",
+        "test-task-123/11.jpg",
+        "test-task-123/14.jpg"
+      ]
+    },
+    "created_at": "2026-02-08T17:31:22.524436",
+    "client_id": "f56acc5c-60fd-4620-b69f-525d0465fa9b",
+    "prompt_id": "3eba7706-b1dc-400b-a4b9-feb10a40c73c",
+    "output_files": [
+      {
+        "filename": "25ed96cf-b188-452d-af66-8aba15226993__00001-audio.mp4",
+        "subfolder": "vj",
+        "type": "output",
+        "path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\output\\vj\\25ed96cf-b188-452d-af66-8aba15226993__00001-audio.mp4"
+      }
+    ],
+    "error": null,
+    "elapsed_seconds": 313,
+    "completed_at": "2026-02-08T17:36:38.174801"
+  },
+  "ff148cc0-6505-4b30-927d-b9887bb82d07": {
+    "task_id": "ff148cc0-6505-4b30-927d-b9887bb82d07",
+    "status": "completed",
+    "params": {
+      "audio_path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\input\\test-task-123\\demo3.mp3",
+      "num_frames": 960,
+      "width": 200,
+      "height": 200,
+      "fps": 16,
+      "images": [
+        "test-task-123/12.jpg",
+        "test-task-123/13.jpg",
+        "test-task-123/11.jpg",
+        "test-task-123/14.jpg"
+      ]
+    },
+    "created_at": "2026-02-08T17:32:39.278475",
+    "client_id": "11dd68af-fd3b-4d88-b788-050347ba907a",
+    "prompt_id": "d4e77c71-8be1-48ad-b259-05460ef6a2cd",
+    "output_files": [
+      {
+        "filename": "ff148cc0-6505-4b30-927d-b9887bb82d07__00001-audio.mp4",
+        "subfolder": "vj",
+        "type": "output",
+        "path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\output\\vj\\ff148cc0-6505-4b30-927d-b9887bb82d07__00001-audio.mp4"
+      }
+    ],
+    "error": null,
+    "elapsed_seconds": 253,
+    "completed_at": "2026-02-08T17:36:54.510844"
+  },
+  "38d3c556-b8ce-40bb-a493-746f25fe55fe": {
+    "task_id": "38d3c556-b8ce-40bb-a493-746f25fe55fe",
+    "status": "completed",
+    "params": {
+      "audio_path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\input\\task_1770543210073_amf615c3k\\demo1.flac",
+      "num_frames": 416,
+      "width": 1024,
+      "height": 1024,
+      "fps": 16,
+      "images": [
+        "task_1770543210073_amf615c3k/11.jpeg",
+        "task_1770543210073_amf615c3k/12.png",
+        "task_1770543210073_amf615c3k/13.jpg",
+        "task_1770543210073_amf615c3k/14.jpg",
+        "task_1770543210073_amf615c3k/image_media_01KGJJJWM38KJ2ZHE682BDTG89.jpg",
+        "task_1770543210073_amf615c3k/image_media_01KGJJJXR7K6DEMV6SAK5G65C9.jpg",
+        "task_1770543210073_amf615c3k/image_media_01KGJJJXYSEP9GNTWX5M3CAAC9.jpg"
+      ]
+    },
+    "created_at": "2026-02-08T17:33:34.213559",
+    "client_id": "cbf266ed-7379-4d0c-a647-59d2c865a3c8",
+    "prompt_id": "21930891-9567-481d-94ea-b0a36526e0ac",
+    "output_files": [
+      {
+        "filename": "38d3c556-b8ce-40bb-a493-746f25fe55fe__00001-audio.mp4",
+        "subfolder": "vj",
+        "type": "output",
+        "path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\output\\vj\\38d3c556-b8ce-40bb-a493-746f25fe55fe__00001-audio.mp4"
+      }
+    ],
+    "error": null,
+    "elapsed_seconds": 0,
+    "completed_at": "2026-02-08T18:02:13.542305"
+  },
+  "6a1a8a9c-0720-420c-8bde-4b07673b8e59": {
+    "task_id": "6a1a8a9c-0720-420c-8bde-4b07673b8e59",
+    "status": "completed",
+    "params": {
+      "audio_path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\input\\task_1770545279069_cc9h1cbmi\\声纹千年.mp3",
+      "num_frames": 480,
+      "width": 1024,
+      "height": 574,
+      "fps": 16,
+      "images": [
+        "task_1770545279069_cc9h1cbmi/11.png",
+        "task_1770545279069_cc9h1cbmi/111.png",
+        "task_1770545279069_cc9h1cbmi/12.png",
+        "task_1770545279069_cc9h1cbmi/13.png",
+        "task_1770545279069_cc9h1cbmi/14.png",
+        "task_1770545279069_cc9h1cbmi/15.png",
+        "task_1770545279069_cc9h1cbmi/16.png",
+        "task_1770545279069_cc9h1cbmi/17.png",
+        "task_1770545279069_cc9h1cbmi/18.png",
+        "task_1770545279069_cc9h1cbmi/19.png"
+      ]
+    },
+    "created_at": "2026-02-08T18:08:00.960470",
+    "client_id": "a49bdab0-4cb5-4d5a-a740-b581fe9d6389",
+    "prompt_id": "55760e7b-53bd-4a92-99a2-5e01240e5124",
+    "output_files": [
+      {
+        "filename": "6a1a8a9c-0720-420c-8bde-4b07673b8e59__00001-audio.mp4",
+        "subfolder": "vj",
+        "type": "output",
+        "path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\output\\vj\\6a1a8a9c-0720-420c-8bde-4b07673b8e59__00001-audio.mp4"
+      }
+    ],
+    "error": null,
+    "elapsed_seconds": 495,
+    "completed_at": "2026-02-08T18:16:18.119868"
+  },
+  "81989e68-f58f-4e90-ba63-cc74a3a83397": {
+    "task_id": "81989e68-f58f-4e90-ba63-cc74a3a83397",
+    "status": "processing",
+    "params": {
+      "audio_path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\input\\task_1770546751844_7rx8cg1cs\\声纹千年_20260208_183120.mp3",
+      "num_frames": 480,
+      "width": 1024,
+      "height": 1024,
+      "fps": 16,
+      "images": [
+        "task_1770546751844_7rx8cg1cs/11.jpeg",
+        "task_1770546751844_7rx8cg1cs/12.png",
+        "task_1770546751844_7rx8cg1cs/13.jpg",
+        "task_1770546751844_7rx8cg1cs/14.jpg",
+        "task_1770546751844_7rx8cg1cs/image_media_01KGJJJWM38KJ2ZHE682BDTG89.jpg",
+        "task_1770546751844_7rx8cg1cs/image_media_01KGJJJXR7K6DEMV6SAK5G65C9.jpg",
+        "task_1770546751844_7rx8cg1cs/image_media_01KGJJJXYSEP9GNTWX5M3CAAC9.jpg"
+      ]
+    },
+    "created_at": "2026-02-08T18:32:32.911954",
+    "client_id": "d36cc478-034c-45d1-9938-e244f8269812",
+    "prompt_id": "a94b6f09-b718-4310-82b2-b62852ffb381",
+    "output_files": [],
+    "error": null,
+    "elapsed_seconds": 0
+  },
+  "2418d4bc-d481-44b5-b0b2-e8ee6358940c": {
+    "task_id": "2418d4bc-d481-44b5-b0b2-e8ee6358940c",
+    "status": "completed",
+    "params": {
+      "audio_path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\input\\task_1770870612292_w1bu9om14\\声纹千年_20260212_122955.mp3",
+      "num_frames": 480,
+      "width": 300,
+      "height": 480,
+      "fps": 16,
+      "images": [
+        "task_1770870612292_w1bu9om14/11.jpeg",
+        "task_1770870612292_w1bu9om14/12.png",
+        "task_1770870612292_w1bu9om14/13.jpg",
+        "task_1770870612292_w1bu9om14/14.jpg",
+        "task_1770870612292_w1bu9om14/image_media_01KGJJJWM38KJ2ZHE682BDTG89.jpg",
+        "task_1770870612292_w1bu9om14/image_media_01KGJJJXR7K6DEMV6SAK5G65C9.jpg",
+        "task_1770870612292_w1bu9om14/image_media_01KGJJJXYSEP9GNTWX5M3CAAC9.jpg"
+      ]
+    },
+    "created_at": "2026-02-12T12:30:15.776207",
+    "client_id": "2afe4ccf-cfee-41c9-a0eb-7d7bb76d8956",
+    "prompt_id": "fa887ba1-c788-4fc8-9381-d74a401d7143",
+    "output_files": [
+      {
+        "filename": "2418d4bc-d481-44b5-b0b2-e8ee6358940c__00001-audio.mp4",
+        "subfolder": "vj",
+        "type": "output",
+        "path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\output\\vj\\2418d4bc-d481-44b5-b0b2-e8ee6358940c__00001-audio.mp4"
+      }
+    ],
+    "error": null,
+    "elapsed_seconds": 467,
+    "completed_at": "2026-02-12T12:38:05.057656"
+  },
+  "94e5500b-f37b-422b-be70-2166d3e229c8": {
+    "task_id": "94e5500b-f37b-422b-be70-2166d3e229c8",
+    "status": "completed",
+    "params": {
+      "audio_path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\input\\task_1770872714752_mec3ozig0\\声纹千年_20260212_130409.mp3",
+      "num_frames": 704,
+      "width": 480,
+      "height": 300,
+      "fps": 16,
+      "images": [
+        "task_1770872714752_mec3ozig0/11.png",
+        "task_1770872714752_mec3ozig0/12.png",
+        "task_1770872714752_mec3ozig0/13.png",
+        "task_1770872714752_mec3ozig0/14.png",
+        "task_1770872714752_mec3ozig0/15.png"
+      ]
+    },
+    "created_at": "2026-02-12T13:05:15.895268",
+    "client_id": "02f98ab6-e601-4d5e-a049-ea21e4a56d67",
+    "prompt_id": "b40c9ddb-fd06-464b-af1d-bbddea7793e8",
+    "output_files": [
+      {
+        "filename": "94e5500b-f37b-422b-be70-2166d3e229c8__00001-audio.mp4",
+        "subfolder": "vj",
+        "type": "output",
+        "path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\output\\vj\\94e5500b-f37b-422b-be70-2166d3e229c8__00001-audio.mp4"
+      }
+    ],
+    "error": null,
+    "elapsed_seconds": 457,
+    "completed_at": "2026-02-12T13:12:55.789427"
+  },
+  "36611e2d-7423-4697-99e4-0f0824b44428": {
+    "task_id": "36611e2d-7423-4697-99e4-0f0824b44428",
+    "status": "completed",
+    "params": {
+      "audio_path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\input\\task_1770874190931_3m9kulrma\\trimmed_task_1770874190931_3m9kulrma.wav",
+      "num_frames": 592,
+      "width": 480,
+      "height": 300,
+      "fps": 16,
+      "images": [
+        "task_1770874190931_3m9kulrma/processed_task_1770874190931_3m9kulrma_0.jpg",
+        "task_1770874190931_3m9kulrma/processed_task_1770874190931_3m9kulrma_1.jpg",
+        "task_1770874190931_3m9kulrma/processed_task_1770874190931_3m9kulrma_2.jpg",
+        "task_1770874190931_3m9kulrma/processed_task_1770874190931_3m9kulrma_3.jpg"
+      ]
+    },
+    "created_at": "2026-02-12T13:30:02.554635",
+    "client_id": "f6958c9f-ea8b-464f-9560-bdaba23756a7",
+    "prompt_id": "a23a9c61-6b51-4319-be87-ea76ee1d45b7",
+    "output_files": [
+      {
+        "filename": "36611e2d-7423-4697-99e4-0f0824b44428__00001-audio.mp4",
+        "subfolder": "vj",
+        "type": "output",
+        "path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\output\\vj\\36611e2d-7423-4697-99e4-0f0824b44428__00001-audio.mp4"
+      }
+    ],
+    "error": null,
+    "elapsed_seconds": 369,
+    "completed_at": "2026-02-12T13:36:14.098579"
+  },
+  "bf0d490b-aa5a-4e70-b7c9-1a2b0b72828d": {
+    "task_id": "bf0d490b-aa5a-4e70-b7c9-1a2b0b72828d",
+    "status": "processing",
+    "params": {
+      "audio_path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\input\\task_1770874571169_m8v0h0yue\\trimmed_task_1770874571169_m8v0h0yue.wav",
+      "num_frames": 960,
+      "width": 480,
+      "height": 300,
+      "fps": 16,
+      "images": [
+        "task_1770874571169_m8v0h0yue/processed_task_1770874571169_m8v0h0yue_0.jpg",
+        "task_1770874571169_m8v0h0yue/processed_task_1770874571169_m8v0h0yue_1.jpg",
+        "task_1770874571169_m8v0h0yue/processed_task_1770874571169_m8v0h0yue_2.jpg",
+        "task_1770874571169_m8v0h0yue/processed_task_1770874571169_m8v0h0yue_3.jpg",
+        "task_1770874571169_m8v0h0yue/processed_task_1770874571169_m8v0h0yue_4.jpg"
+      ]
+    },
+    "created_at": "2026-02-12T13:36:18.019097",
+    "client_id": "17cf1a4f-154b-448f-aa16-fbb756d095a4",
+    "prompt_id": "afe5373e-4eb7-4fb6-b28f-224588b004eb",
+    "output_files": [],
+    "error": null,
+    "elapsed_seconds": 0
+  },
+  "bf9234de-4a63-4f2c-9c7d-d6b87cbb9572": {
+    "task_id": "bf9234de-4a63-4f2c-9c7d-d6b87cbb9572",
+    "status": "completed",
+    "params": {
+      "audio_path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\input\\task_1770874993283_n3j13do33\\trimmed_task_1770874993283_n3j13do33.wav",
+      "num_frames": 480,
+      "width": 480,
+      "height": 300,
+      "fps": 16,
+      "images": [
+        "task_1770874993283_n3j13do33/processed_task_1770874993283_n3j13do33_0.jpg",
+        "task_1770874993283_n3j13do33/processed_task_1770874993283_n3j13do33_1.jpg",
+        "task_1770874993283_n3j13do33/processed_task_1770874993283_n3j13do33_2.jpg",
+        "task_1770874993283_n3j13do33/processed_task_1770874993283_n3j13do33_3.jpg"
+      ]
+    },
+    "created_at": "2026-02-12T13:43:24.913951",
+    "client_id": "5b41aaf3-48fc-4187-b63a-03d6431b12ef",
+    "prompt_id": "268c23bb-ce8f-413d-90df-1c1e4386b7b7",
+    "output_files": [
+      {
+        "filename": "bf9234de-4a63-4f2c-9c7d-d6b87cbb9572__00001-audio.mp4",
+        "subfolder": "vj",
+        "type": "output",
+        "path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\output\\vj\\bf9234de-4a63-4f2c-9c7d-d6b87cbb9572__00001-audio.mp4"
+      }
+    ],
+    "error": null,
+    "elapsed_seconds": 558,
+    "completed_at": "2026-02-12T13:52:45.342920"
+  },
+  "1e9e8feb-0245-4a30-beae-f4dbf5980cae": {
+    "task_id": "1e9e8feb-0245-4a30-beae-f4dbf5980cae",
+    "status": "failed",
+    "params": {
+      "audio_path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\input\\task_1770878651115_edrgseycg\\trimmed_task_1770878651115_edrgseycg.wav",
+      "num_frames": 480,
+      "width": 480,
+      "height": 300,
+      "fps": 16,
+      "images": [
+        "task_1770878651115_edrgseycg/processed_task_1770878651115_edrgseycg_0.jpg",
+        "task_1770878651115_edrgseycg/processed_task_1770878651115_edrgseycg_1.jpg",
+        "task_1770878651115_edrgseycg/processed_task_1770878651115_edrgseycg_2.jpg",
+        "task_1770878651115_edrgseycg/processed_task_1770878651115_edrgseycg_3.jpg"
+      ]
+    },
+    "created_at": "2026-02-12T14:44:18.337194",
+    "client_id": "0a9cb021-f1a4-437b-8b4b-ade9382c056b",
+    "prompt_id": null,
+    "output_files": [],
+    "error": "HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /prompt (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F125A4F950>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+    "elapsed_seconds": 0
+  },
+  "1d597676-587f-496a-9c40-e3943aee451f": {
+    "task_id": "1d597676-587f-496a-9c40-e3943aee451f",
+    "status": "failed",
+    "params": {
+      "audio_path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\input\\task_1770884795357_zy8tdjtg1\\trimmed_task_1770884795357_zy8tdjtg1.wav",
+      "num_frames": 960,
+      "width": 480,
+      "height": 300,
+      "fps": 16,
+      "images": [
+        "task_1770884795357_zy8tdjtg1/processed_task_1770884795357_zy8tdjtg1_0.jpg",
+        "task_1770884795357_zy8tdjtg1/processed_task_1770884795357_zy8tdjtg1_1.jpg",
+        "task_1770884795357_zy8tdjtg1/processed_task_1770884795357_zy8tdjtg1_2.jpg",
+        "task_1770884795357_zy8tdjtg1/processed_task_1770884795357_zy8tdjtg1_3.jpg"
+      ]
+    },
+    "created_at": "2026-02-12T16:26:49.436286",
+    "client_id": "da2a1064-e510-4f46-9b2e-9428bdbdf614",
+    "prompt_id": null,
+    "output_files": [],
+    "error": "HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /prompt (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002D7B267F950>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+    "elapsed_seconds": 0
+  },
+  "aa00fc58-a522-4dfe-bddf-63d72e03986e": {
+    "task_id": "aa00fc58-a522-4dfe-bddf-63d72e03986e",
+    "status": "failed",
+    "params": {
+      "audio_path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\input\\task_1770885465486_fz98klink\\trimmed_task_1770885465486_fz98klink.wav",
+      "num_frames": 960,
+      "width": 480,
+      "height": 300,
+      "fps": 16,
+      "images": [
+        "task_1770885465486_fz98klink/processed_task_1770885465486_fz98klink_0.jpg",
+        "task_1770885465486_fz98klink/processed_task_1770885465486_fz98klink_1.jpg",
+        "task_1770885465486_fz98klink/processed_task_1770885465486_fz98klink_2.jpg",
+        "task_1770885465486_fz98klink/processed_task_1770885465486_fz98klink_3.jpg",
+        "task_1770885465486_fz98klink/processed_task_1770885465486_fz98klink_4.jpg",
+        "task_1770885465486_fz98klink/processed_task_1770885465486_fz98klink_5.jpg",
+        "task_1770885465486_fz98klink/processed_task_1770885465486_fz98klink_6.jpg"
+      ]
+    },
+    "created_at": "2026-02-12T16:37:54.611324",
+    "client_id": "d1f7051f-1d5f-445a-a33e-aba3a0e64e3b",
+    "prompt_id": null,
+    "output_files": [],
+    "error": "HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /prompt (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002D7B27B6330>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+    "elapsed_seconds": 0
+  },
+  "3c31e26c-ab56-4ace-953f-dcd4164b140b": {
+    "task_id": "3c31e26c-ab56-4ace-953f-dcd4164b140b",
+    "status": "completed",
+    "params": {
+      "audio_path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\input\\task_1770887026166_s8g52ljdk\\trimmed_task_1770887026166_s8g52ljdk.wav",
+      "num_frames": 960,
+      "width": 480,
+      "height": 300,
+      "fps": 16,
+      "images": [
+        "task_1770887026166_s8g52ljdk/processed_task_1770887026166_s8g52ljdk_0.jpg",
+        "task_1770887026166_s8g52ljdk/processed_task_1770887026166_s8g52ljdk_1.jpg",
+        "task_1770887026166_s8g52ljdk/processed_task_1770887026166_s8g52ljdk_2.jpg",
+        "task_1770887026166_s8g52ljdk/processed_task_1770887026166_s8g52ljdk_3.jpg",
+        "task_1770887026166_s8g52ljdk/processed_task_1770887026166_s8g52ljdk_4.jpg",
+        "task_1770887026166_s8g52ljdk/processed_task_1770887026166_s8g52ljdk_5.jpg",
+        "task_1770887026166_s8g52ljdk/processed_task_1770887026166_s8g52ljdk_6.jpg"
+      ]
+    },
+    "created_at": "2026-02-12T17:03:55.249482",
+    "client_id": "21c42605-c9e2-422a-8425-ae8ae46aa16c",
+    "prompt_id": "15b4d0c2-e58f-4f2d-8987-2f2f1c751bdc",
+    "output_files": [
+      {
+        "filename": "3c31e26c-ab56-4ace-953f-dcd4164b140b__00001-audio.mp4",
+        "subfolder": "vj",
+        "type": "output",
+        "path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\output\\vj\\3c31e26c-ab56-4ace-953f-dcd4164b140b__00001-audio.mp4"
+      }
+    ],
+    "error": null,
+    "elapsed_seconds": 0,
+    "completed_at": "2026-02-12T17:56:08.681047"
+  },
+  "3a3cac04-f6de-46ce-b45a-7324550c38ec": {
+    "task_id": "3a3cac04-f6de-46ce-b45a-7324550c38ec",
+    "status": "completed",
+    "params": {
+      "audio_path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\input\\task_1770890677200_frrfvvrj5\\trimmed_task_1770890677200_frrfvvrj5.wav",
+      "num_frames": 960,
+      "width": 480,
+      "height": 300,
+      "fps": 16,
+      "images": [
+        "task_1770890677200_frrfvvrj5/processed_task_1770890677200_frrfvvrj5_0.jpg",
+        "task_1770890677200_frrfvvrj5/processed_task_1770890677200_frrfvvrj5_1.jpg",
+        "task_1770890677200_frrfvvrj5/processed_task_1770890677200_frrfvvrj5_2.jpg",
+        "task_1770890677200_frrfvvrj5/processed_task_1770890677200_frrfvvrj5_3.jpg"
+      ]
+    },
+    "created_at": "2026-02-12T18:04:48.691766",
+    "client_id": "ca715d8c-eb76-44ab-b4f7-60745b59444d",
+    "prompt_id": "d2b64b5a-9e37-4a4b-a354-13c62e31a399",
+    "output_files": [
+      {
+        "filename": "3a3cac04-f6de-46ce-b45a-7324550c38ec__00001-audio.mp4",
+        "subfolder": "vj",
+        "type": "output",
+        "path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\output\\vj\\3a3cac04-f6de-46ce-b45a-7324550c38ec__00001-audio.mp4",
+        "node_id": "410"
+      }
+    ],
+    "error": null,
+    "elapsed_seconds": 694,
+    "completed_at": "2026-02-12T18:16:26.047853"
+  },
+  "39f7a007-2edb-48a5-93b1-5cc9429d56ab": {
+    "task_id": "39f7a007-2edb-48a5-93b1-5cc9429d56ab",
+    "status": "completed",
+    "params": {
+      "audio_path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\input\\task_1770910355748_lenr87b6t\\trimmed_task_1770910355748_lenr87b6t.wav",
+      "num_frames": 560,
+      "width": 480,
+      "height": 300,
+      "fps": 16,
+      "images": [
+        "task_1770910355748_lenr87b6t/processed_task_1770910355748_lenr87b6t_0.jpg",
+        "task_1770910355748_lenr87b6t/processed_task_1770910355748_lenr87b6t_1.jpg",
+        "task_1770910355748_lenr87b6t/processed_task_1770910355748_lenr87b6t_2.jpg",
+        "task_1770910355748_lenr87b6t/processed_task_1770910355748_lenr87b6t_3.jpg"
+      ]
+    },
+    "created_at": "2026-02-12T23:32:46.759697",
+    "client_id": "a7128951-5d6e-4164-937c-00a1020475df",
+    "prompt_id": "1d75a535-0290-4713-95c2-e59c23860650",
+    "output_files": [
+      {
+        "filename": "39f7a007-2edb-48a5-93b1-5cc9429d56ab__00001-audio.mp4",
+        "subfolder": "vj",
+        "type": "output",
+        "path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\output\\vj\\39f7a007-2edb-48a5-93b1-5cc9429d56ab__00001-audio.mp4",
+        "node_id": "410"
+      }
+    ],
+    "error": null,
+    "elapsed_seconds": 335,
+    "completed_at": "2026-02-12T23:38:24.504045"
+  },
+  "22b70562-6982-4076-86b0-4f8c9941e0cb": {
+    "task_id": "22b70562-6982-4076-86b0-4f8c9941e0cb",
+    "status": "completed",
+    "params": {
+      "audio_path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\input\\task_1770912072417_7ub013bx9\\trimmed_task_1770912072417_7ub013bx9.wav",
+      "num_frames": 480,
+      "width": 480,
+      "height": 300,
+      "fps": 16,
+      "images": [
+        "task_1770912072417_7ub013bx9/processed_task_1770912072417_7ub013bx9_0.jpg",
+        "task_1770912072417_7ub013bx9/processed_task_1770912072417_7ub013bx9_1.jpg",
+        "task_1770912072417_7ub013bx9/processed_task_1770912072417_7ub013bx9_2.jpg",
+        "task_1770912072417_7ub013bx9/processed_task_1770912072417_7ub013bx9_3.jpg",
+        "task_1770912072417_7ub013bx9/processed_task_1770912072417_7ub013bx9_4.jpg",
+        "task_1770912072417_7ub013bx9/processed_task_1770912072417_7ub013bx9_5.jpg",
+        "task_1770912072417_7ub013bx9/processed_task_1770912072417_7ub013bx9_6.jpg",
+        "task_1770912072417_7ub013bx9/processed_task_1770912072417_7ub013bx9_7.jpg",
+        "task_1770912072417_7ub013bx9/processed_task_1770912072417_7ub013bx9_8.jpg",
+        "task_1770912072417_7ub013bx9/processed_task_1770912072417_7ub013bx9_9.jpg"
+      ]
+    },
+    "created_at": "2026-02-13T00:01:15.350827",
+    "client_id": "a444403f-83ad-4c08-9e22-0ca3ab086515",
+    "prompt_id": "4385c898-4ad9-4a73-bc44-d9c3c54f9574",
+    "output_files": [
+      {
+        "filename": "22b70562-6982-4076-86b0-4f8c9941e0cb__00001-audio.mp4",
+        "subfolder": "vj",
+        "type": "output",
+        "path": "C:\\Users\\admin\\Downloads\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\output\\vj\\22b70562-6982-4076-86b0-4f8c9941e0cb__00001-audio.mp4",
+        "node_id": "410"
+      }
+    ],
+    "error": null,
+    "elapsed_seconds": 325,
+    "completed_at": "2026-02-13T00:06:43.445393"
+  }
+}

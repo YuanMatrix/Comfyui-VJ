@@ -1,0 +1,1101 @@
+{
+    "id": "audio-graph-transitions",
+    "revision": 0,
+    "last_node_id": 521,
+    "last_link_id": 1585,
+    "nodes": [
+        {
+            "id": 483,
+            "type": "Audio Peaks Detection",
+            "pos": [
+                -637.2529785890185,
+                1356.3136039153462
+            ],
+            "size": [
+                394.4401041666667,
+                190.80729166666669
+            ],
+            "flags": {},
+            "order": 13,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "audio_weights",
+                    "name": "audio_weights",
+                    "type": "FLOATS",
+                    "link": 1522
+                },
+                {
+                    "localized_name": "peaks_threshold",
+                    "name": "peaks_threshold",
+                    "type": "FLOAT",
+                    "widget": {
+                        "name": "peaks_threshold"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "min_peaks_distance",
+                    "name": "min_peaks_distance",
+                    "type": "INT",
+                    "widget": {
+                        "name": "min_peaks_distance"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "peaks_weights",
+                    "name": "peaks_weights",
+                    "type": "FLOATS",
+                    "slot_index": 0,
+                    "links": [
+                        1526
+                    ]
+                },
+                {
+                    "localized_name": "peaks_alternate_weights",
+                    "name": "peaks_alternate_weights",
+                    "type": "FLOATS",
+                    "links": null
+                },
+                {
+                    "localized_name": "peaks_index",
+                    "name": "peaks_index",
+                    "type": "STRING",
+                    "links": [
+                        1591
+                    ]
+                },
+                {
+                    "localized_name": "peaks_count",
+                    "name": "peaks_count",
+                    "type": "INT",
+                    "links": [
+                        1582
+                    ]
+                },
+                {
+                    "localized_name": "graph_peaks",
+                    "name": "graph_peaks",
+                    "type": "IMAGE",
+                    "links": [
+                        1232
+                    ]
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfyui_yvann-nodes",
+                "ver": "8e9d7ea127e566cb4998f9c738af5cabe1e6f8b2",
+                "Node name for S&R": "Audio Peaks Detection"
+            },
+            "widgets_values": [
+                0.4,
+                5
+            ],
+            "color": "#153a61",
+            "bgcolor": "#1A4870",
+            "shape": 1
+        },
+        {
+            "id": 58,
+            "type": "LoadImage",
+            "pos": [
+                -889.0583564602116,
+                2085.2460889442655
+            ],
+            "size": [
+                222.798828125,
+                489.3619791666667
+            ],
+            "flags": {},
+            "order": 5,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "图像",
+                    "name": "image",
+                    "type": "COMBO",
+                    "widget": {
+                        "name": "image"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "选择文件上传",
+                    "name": "upload",
+                    "type": "IMAGEUPLOAD",
+                    "widget": {
+                        "name": "upload"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "图像",
+                    "name": "IMAGE",
+                    "type": "IMAGE",
+                    "slot_index": 0,
+                    "links": [
+                        900
+                    ]
+                },
+                {
+                    "localized_name": "遮罩",
+                    "name": "MASK",
+                    "type": "MASK",
+                    "links": null
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.27",
+                "Node name for S&R": "LoadImage"
+            },
+            "widgets_values": [
+                "music1.png",
+                "image"
+            ],
+            "color": "#432",
+            "bgcolor": "#653"
+        },
+        {
+            "id": 519,
+            "type": "d044fffe-3689-4e46-951c-ad2319773ffd",
+            "pos": [
+                -303.1068892720043,
+                287.81686128912935
+            ],
+            "size": [
+                281.09375,
+                301.6666666666667
+            ],
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "inputs": [
+                {
+                    "label": "Number of Frames",
+                    "name": "value",
+                    "type": "INT",
+                    "widget": {
+                        "name": "value"
+                    },
+                    "link": null
+                },
+                {
+                    "label": "Width Video",
+                    "name": "value_1",
+                    "type": "INT",
+                    "widget": {
+                        "name": "value_1"
+                    },
+                    "link": null
+                },
+                {
+                    "label": "Height Animation",
+                    "name": "value_2",
+                    "type": "INT",
+                    "widget": {
+                        "name": "value_2"
+                    },
+                    "link": null
+                },
+                {
+                    "label": "Frames per second",
+                    "name": "value_3",
+                    "type": "FLOAT",
+                    "widget": {
+                        "name": "value_3"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "LATENT",
+                    "name": "LATENT",
+                    "type": "LATENT",
+                    "links": [
+                        1594,
+                        1611
+                    ]
+                },
+                {
+                    "localized_name": "value",
+                    "name": "value",
+                    "type": "INT",
+                    "links": [
+                        1567,
+                        1589
+                    ]
+                },
+                {
+                    "localized_name": "value_1",
+                    "name": "value_1",
+                    "type": "FLOAT",
+                    "links": [
+                        1568,
+                        1569,
+                        1571,
+                        1572,
+                        1586
+                    ]
+                },
+                {
+                    "localized_name": "value_2",
+                    "name": "value_2",
+                    "type": "INT",
+                    "links": [
+                        1580,
+                        1587
+                    ]
+                },
+                {
+                    "localized_name": "value_3",
+                    "name": "value_3",
+                    "type": "INT",
+                    "links": [
+                        1581,
+                        1588
+                    ]
+                }
+            ],
+            "title": "Video Settings",
+            "properties": {
+                "proxyWidgets": [
+                    [
+                        "-1",
+                        "value"
+                    ],
+                    [
+                        "-1",
+                        "value_1"
+                    ],
+                    [
+                        "-1",
+                        "value_2"
+                    ],
+                    [
+                        "-1",
+                        "value_3"
+                    ]
+                ],
+                "cnr_id": "comfy-core",
+                "ver": "0.8.2"
+            },
+            "widgets_values": [
+                50,
+                384,
+                384,
+                16
+            ]
+        },
+        {
+            "id": 520,
+            "type": "0e345d3d-15db-4007-b857-62eb230f4d97",
+            "pos": [
+                -1455.5405058674485,
+                778.1057096888202
+            ],
+            "size": [
+                258.125,
+                165
+            ],
+            "flags": {},
+            "order": 8,
+            "mode": 0,
+            "inputs": [],
+            "outputs": [
+                {
+                    "localized_name": "audio",
+                    "name": "audio",
+                    "type": "AUDIO",
+                    "links": [
+                        1577
+                    ]
+                },
+                {
+                    "localized_name": "audio_sep_model",
+                    "name": "audio_sep_model",
+                    "type": "AUDIO_SEPARATION_MODEL",
+                    "links": [
+                        1578
+                    ]
+                }
+            ],
+            "title": "Load Audio",
+            "properties": {
+                "proxyWidgets": [
+                    [
+                        "520",
+                        "audio"
+                    ],
+                    [
+                        "520",
+                        "upload"
+                    ],
+                    [
+                        "520",
+                        "audioUI"
+                    ]
+                ],
+                "cnr_id": "comfy-core",
+                "ver": "0.8.2"
+            },
+            "widgets_values": []
+        },
+        {
+            "id": 521,
+            "type": "3c389be0-95fd-4ea8-ad22-6874be7aec48",
+            "pos": [
+                315.65445538351025,
+                1829.3181500380215
+            ],
+            "size": [
+                243.77604166666669,
+                181.66666666666669
+            ],
+            "flags": {},
+            "order": 15,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "image",
+                    "name": "image",
+                    "type": "IMAGE",
+                    "link": 1579
+                },
+                {
+                    "name": "width_input",
+                    "type": "INT",
+                    "link": 1580
+                },
+                {
+                    "name": "height_input",
+                    "type": "INT",
+                    "link": 1581
+                },
+                {
+                    "localized_name": "count",
+                    "name": "count",
+                    "type": "INT",
+                    "widget": {
+                        "name": "count"
+                    },
+                    "link": 1582
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "images",
+                    "name": "images",
+                    "type": "IMAGE",
+                    "links": [
+                        1592
+                    ]
+                },
+                {
+                    "localized_name": "IMAGE",
+                    "name": "IMAGE",
+                    "type": "IMAGE",
+                    "links": [
+                        1585
+                    ]
+                }
+            ],
+            "title": "Images Processing",
+            "properties": {
+                "proxyWidgets": [
+                    [
+                        "-1",
+                        "count"
+                    ]
+                ],
+                "cnr_id": "comfy-core",
+                "ver": "0.8.2"
+            },
+            "widgets_values": [
+                0
+            ],
+            "color": "#432",
+            "bgcolor": "#653"
+        },
+        {
+            "id": 330,
+            "type": "PreviewImage",
+            "pos": [
+                705.0223609122835,
+                1212.2275735193377
+            ],
+            "size": [
+                418.05989583333337,
+                394.53125
+            ],
+            "flags": {},
+            "order": 20,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "图像",
+                    "name": "images",
+                    "type": "IMAGE",
+                    "link": 1531
+                }
+            ],
+            "outputs": [],
+            "title": "graph_transitions",
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.27",
+                "Node name for S&R": "PreviewImage"
+            },
+            "widgets_values": [],
+            "color": "#223",
+            "bgcolor": "#335"
+        },
+        {
+            "id": 267,
+            "type": "LoadImage",
+            "pos": [
+                -643.1383662258422,
+                2083.8059131630152
+            ],
+            "size": [
+                225.6640625,
+                460.4947916666667
+            ],
+            "flags": {},
+            "order": 6,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "图像",
+                    "name": "image",
+                    "type": "COMBO",
+                    "widget": {
+                        "name": "image"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "选择文件上传",
+                    "name": "upload",
+                    "type": "IMAGEUPLOAD",
+                    "widget": {
+                        "name": "upload"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "图像",
+                    "name": "IMAGE",
+                    "type": "IMAGE",
+                    "slot_index": 0,
+                    "links": [
+                        904
+                    ]
+                },
+                {
+                    "localized_name": "遮罩",
+                    "name": "MASK",
+                    "type": "MASK",
+                    "links": null
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.27",
+                "Node name for S&R": "LoadImage"
+            },
+            "widgets_values": [
+                "music2.png",
+                "image"
+            ],
+            "color": "#432",
+            "bgcolor": "#653"
+        },
+        {
+            "id": 372,
+            "type": "LoadImage",
+            "pos": [
+                -398.738180678973,
+                2080.926440506765
+            ],
+            "size": [
+                240.06510416666669,
+                476.328125
+            ],
+            "flags": {},
+            "order": 7,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "图像",
+                    "name": "image",
+                    "type": "COMBO",
+                    "widget": {
+                        "name": "image"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "选择文件上传",
+                    "name": "upload",
+                    "type": "IMAGEUPLOAD",
+                    "widget": {
+                        "name": "upload"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "图像",
+                    "name": "IMAGE",
+                    "type": "IMAGE",
+                    "slot_index": 0,
+                    "links": [
+                        903
+                    ]
+                },
+                {
+                    "localized_name": "遮罩",
+                    "name": "MASK",
+                    "type": "MASK",
+                    "links": null
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.27",
+                "Node name for S&R": "LoadImage"
+            },
+            "widgets_values": [
+                "music4.png",
+                "image"
+            ],
+            "color": "#432",
+            "bgcolor": "#653"
+        },
+        {
+            "id": 376,
+            "type": "ImageBatchMulti",
+            "pos": [
+                22.35878155539202,
+                1864.60957581927
+            ],
+            "size": [
+                250.57291666666669,
+                232.5
+            ],
+            "flags": {},
+            "order": 10,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "image_1",
+                    "name": "image_1",
+                    "type": "IMAGE",
+                    "link": 899
+                },
+                {
+                    "localized_name": "image_2",
+                    "name": "image_2",
+                    "shape": 7,
+                    "type": "IMAGE",
+                    "link": 900
+                },
+                {
+                    "localized_name": "inputcount",
+                    "name": "inputcount",
+                    "type": "INT",
+                    "widget": {
+                        "name": "inputcount"
+                    },
+                    "link": null
+                },
+                {
+                    "name": "image_3",
+                    "type": "IMAGE",
+                    "link": 904
+                },
+                {
+                    "name": "image_4",
+                    "type": "IMAGE",
+                    "link": 903
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "images",
+                    "name": "images",
+                    "type": "IMAGE",
+                    "slot_index": 0,
+                    "links": [
+                        1579
+                    ]
+                }
+            ],
+            "properties": {
+                "aux_id": "aining2022/ComfyUI_Swwan",
+                "ver": "c8f5fc0760184fdfe43f5a320f34c77b0cc22e2d",
+                "Node name for S&R": "ImageBatchMulti",
+                "cnr_id": "comfyui-kjnodes"
+            },
+            "widgets_values": [
+                4
+            ],
+            "color": "#432",
+            "bgcolor": "#653"
+        },
+        {
+            "id": 505,
+            "type": "Audio Analysis",
+            "pos": [
+                -1093.5857794143321,
+                759.6410339935079
+            ],
+            "size": [
+                261.9921875,
+                357.2135416666667
+            ],
+            "flags": {},
+            "order": 11,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "audio_sep_model",
+                    "name": "audio_sep_model",
+                    "type": "AUDIO_SEPARATION_MODEL",
+                    "link": 1578
+                },
+                {
+                    "localized_name": "batch_size",
+                    "name": "batch_size",
+                    "type": "INT",
+                    "link": 1567
+                },
+                {
+                    "localized_name": "fps",
+                    "name": "fps",
+                    "type": "FLOAT",
+                    "link": 1568
+                },
+                {
+                    "localized_name": "audio",
+                    "name": "audio",
+                    "type": "AUDIO",
+                    "link": 1577
+                },
+                {
+                    "localized_name": "analysis_mode",
+                    "name": "analysis_mode",
+                    "type": "COMBO",
+                    "widget": {
+                        "name": "analysis_mode"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "threshold",
+                    "name": "threshold",
+                    "type": "FLOAT",
+                    "widget": {
+                        "name": "threshold"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "multiply",
+                    "name": "multiply",
+                    "type": "FLOAT",
+                    "widget": {
+                        "name": "multiply"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "processed_audio",
+                    "name": "processed_audio",
+                    "type": "AUDIO",
+                    "links": [
+                        1519
+                    ]
+                },
+                {
+                    "localized_name": "original_audio",
+                    "name": "original_audio",
+                    "type": "AUDIO",
+                    "links": [
+                        1541,
+                        1552,
+                        1555
+                    ]
+                },
+                {
+                    "localized_name": "audio_weights",
+                    "name": "audio_weights",
+                    "type": "FLOATS",
+                    "links": [
+                        1522
+                    ]
+                },
+                {
+                    "localized_name": "graph_audio",
+                    "name": "graph_audio",
+                    "type": "IMAGE",
+                    "links": [
+                        1523
+                    ]
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfyui_yvann-nodes",
+                "ver": "8e9d7ea127e566cb4998f9c738af5cabe1e6f8b2",
+                "Node name for S&R": "Audio Analysis"
+            },
+            "widgets_values": [
+                "Drums Only",
+                0.5,
+                1
+            ],
+            "color": "#153a61",
+            "bgcolor": "#1A4870",
+            "shape": 1
+        },
+        {
+            "id": 56,
+            "type": "LoadImage",
+            "pos": [
+                -1113.6405706945814,
+                2080.3611769442655
+            ],
+            "size": [
+                222.798828125,
+                506.9791666666667
+            ],
+            "flags": {},
+            "order": 4,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "图像",
+                    "name": "image",
+                    "type": "COMBO",
+                    "widget": {
+                        "name": "image"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "选择文件上传",
+                    "name": "upload",
+                    "type": "IMAGEUPLOAD",
+                    "widget": {
+                        "name": "upload"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "图像",
+                    "name": "IMAGE",
+                    "type": "IMAGE",
+                    "slot_index": 0,
+                    "links": [
+                        899
+                    ]
+                },
+                {
+                    "localized_name": "遮罩",
+                    "name": "MASK",
+                    "type": "MASK",
+                    "links": null
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.3.27",
+                "Node name for S&R": "LoadImage"
+            },
+            "widgets_values": [
+                "hero-bg.png",
+                "image"
+            ],
+            "color": "#432",
+            "bgcolor": "#653"
+        },
+        {
+            "id": 507,
+            "type": "Audio IPAdapter Transitions",
+            "pos": [
+                381.61020967782144,
+                1087.0469129513133
+            ],
+            "size": [
+                277.6822916666667,
+                303.88020833333337
+            ],
+            "flags": {},
+            "order": 18,
+            "mode": 0,
+            "inputs": [
+                {
+                    "localized_name": "images",
+                    "name": "images",
+                    "type": "IMAGE",
+                    "link": 1585
+                },
+                {
+                    "localized_name": "peaks_weights",
+                    "name": "peaks_weights",
+                    "type": "FLOATS",
+                    "link": 1526
+                },
+                {
+                    "localized_name": "transition_mode",
+                    "name": "transition_mode",
+                    "type": "COMBO",
+                    "widget": {
+                        "name": "transition_mode"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "transition_length",
+                    "name": "transition_length",
+                    "type": "INT",
+                    "widget": {
+                        "name": "transition_length"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "min_IPA_weight",
+                    "name": "min_IPA_weight",
+                    "type": "FLOAT",
+                    "widget": {
+                        "name": "min_IPA_weight"
+                    },
+                    "link": null
+                },
+                {
+                    "localized_name": "max_IPA_weight",
+                    "name": "max_IPA_weight",
+                    "type": "FLOAT",
+                    "widget": {
+                        "name": "max_IPA_weight"
+                    },
+                    "link": null
+                }
+            ],
+            "outputs": [
+                {
+                    "localized_name": "image_1",
+                    "name": "image_1",
+                    "type": "IMAGE",
+                    "links": [
+                        1603
+                    ]
+                },
+                {
+                    "localized_name": "weights",
+                    "name": "weights",
+                    "type": "FLOAT",
+                    "links": [
+                        1604
+                    ]
+                },
+                {
+                    "localized_name": "image_2",
+                    "name": "image_2",
+                    "type": "IMAGE",
+                    "links": [
+                        1605
+                    ]
+                },
+                {
+                    "localized_name": "weights_invert",
+                    "name": "weights_invert",
+                    "type": "FLOAT",
+                    "links": [
+                        1606
+                    ]
+                },
+                {
+                    "localized_name": "graph_transition",
+                    "name": "graph_transition",
+                    "type": "IMAGE",
+                    "links": [
+                        1531
+                    ]
+                }
+            ],
+            "properties": {
+                "cnr_id": "comfyui_yvann-nodes",
+                "ver": "8e9d7ea127e566cb4998f9c738af5cabe1e6f8b2",
+                "Node name for S&R": "Audio IPAdapter Transitions"
+            },
+            "widgets_values": [
+                "linear",
+                5,
+                0,
+                1
+            ],
+            "color": "#153a61",
+            "bgcolor": "#1A4870",
+            "shape": 1
+        }
+    ],
+    "links": [
+        [
+            899,
+            56,
+            0,
+            376,
+            0,
+            "IMAGE"
+        ],
+        [
+            900,
+            58,
+            0,
+            376,
+            1,
+            "IMAGE"
+        ],
+        [
+            903,
+            372,
+            0,
+            376,
+            4,
+            "IMAGE"
+        ],
+        [
+            904,
+            267,
+            0,
+            376,
+            3,
+            "IMAGE"
+        ],
+        [
+            1522,
+            505,
+            2,
+            483,
+            0,
+            "FLOAT"
+        ],
+        [
+            1526,
+            483,
+            0,
+            507,
+            1,
+            "FLOAT"
+        ],
+        [
+            1531,
+            507,
+            4,
+            330,
+            0,
+            "IMAGE"
+        ],
+        [
+            1567,
+            519,
+            1,
+            505,
+            1,
+            "INT"
+        ],
+        [
+            1568,
+            519,
+            2,
+            505,
+            2,
+            "FLOAT"
+        ],
+        [
+            1577,
+            520,
+            0,
+            505,
+            3,
+            "AUDIO"
+        ],
+        [
+            1578,
+            520,
+            1,
+            505,
+            0,
+            "AUDIO_SEPARATION_MODEL"
+        ],
+        [
+            1579,
+            376,
+            0,
+            521,
+            0,
+            "IMAGE"
+        ],
+        [
+            1580,
+            519,
+            3,
+            521,
+            1,
+            "INT"
+        ],
+        [
+            1581,
+            519,
+            4,
+            521,
+            2,
+            "INT"
+        ],
+        [
+            1582,
+            483,
+            3,
+            521,
+            3,
+            "INT"
+        ],
+        [
+            1585,
+            521,
+            1,
+            507,
+            0,
+            "IMAGE"
+        ]
+    ],
+    "groups": [],
+    "config": {},
+    "extra": {
+        "ds": {
+            "scale": 0.6669704010032212,
+            "offset": [
+                1058.6995261974844,
+                260.9259300583077
+            ]
+        },
+        "groupNodes": {}
+    },
+    "version": 0.4
+}
